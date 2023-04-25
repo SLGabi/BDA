@@ -1,6 +1,7 @@
 module.exports = app => {
     const controller = require('../controllers/nodo.js')();
   
-    app.route('/api/v1/nodo')
-      .post(controller.createNodo);
+    app.route('/API/v1/nodo')
+      .get(controller.listUser)
+      .post(controller.createUser);
   }

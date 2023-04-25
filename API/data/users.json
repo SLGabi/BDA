@@ -1,0 +1,21 @@
+{
+    "customerWallets": {
+      "data": [
+        {
+          "id": "0001",
+          "name": "Kayara Pereira",
+          "email": "kayara@email.com.br"
+        },
+        {
+          "id": "0002",
+          "name": "Gabriele Silva",
+          "email": "gabriele@email.com.br"
+        },
+        {
+          "id": "0003",
+          "name": "Rafael Copes",
+          "email": "rafael@email.com.br"
+        }
+      ]
+    }
+  }

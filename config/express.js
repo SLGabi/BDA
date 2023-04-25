@@ -10,7 +10,8 @@ module.exports = () => {
 
   // MIDDLEWARES
   app.use(bodyParser.json());
-  // require('../api/routes/nodo')(app);
+
+  require('../API/routes/nodo')(app);
 
   return app;
 };

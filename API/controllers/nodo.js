@@ -1,11 +1,11 @@
 module.exports = () => {
-    // const customerWalletsDB = require('../data/customer-wallets.json');
+    const usuariosDB = require('../data/users.json');
     const controller = {};
   
-    //controller.listCustomerWallets = (req, res) => res.status(200).json(customerWalletsDB); GET
+    controller.listUser = (req, res) => res.status(200).json(usuariosDB); //GET User infos
     
-    // controller.createNodo = (req, res) => {
-
-    // }
+    controller.createUser = (req, res) => {
+        
+    }
     return controller;
   }
