@@ -1,31 +1,27 @@
-const app = require('./config/express')();
-const port = app.get('port');
+const express = require('express');
+const bodyParser = require('body-parser');
+const app = express();
 
-//conectando ao orientDB
-const OrientDBClient = require('orientjs').OrientDBClient;
+//Pegando os controllers
+const usuariosController = require('./API/controllers/usuariosController');
+//const produtosController = require('./API/controllers/produtosController');
 
-async function DoSomething(){
-  let client = await OrientDBClient.connect({
-  host: 'localhost',
-  port: 2424
+// Configuração do middleware para processar o body da requisição como JSON
+app.use(express.json());
+app.use(bodyParser.urlencoded({ extended: false }));
+
+// Rota principal que retorna o formulário HTML
+app.get('/', (req, res) => {
+  res.sendFile(__dirname + '/API/public/index.html');
 });
 
-  console.log("Connected");
-  //abri a sessão
-  let session = await client.session({ name: "BDA", username: "root", password: "191715" });
-  // use the session
-  console.log("Session open");
-  // close the session
-  await session.close();
-  console.log("Session Closed");
+// Inclua as rotas do controller de usuários
+app.use(usuariosController);
 
-  await client.close();
+// Inclua as rotas do controller de produtos
+//app.use(produtosController);
 
-  console.log("Client Closed");
-}
-
-DoSomething();
-// RODANDO NOSSA APLICAÇÃO NA PORTA SETADA
-app.listen(port, () => {
-  console.log(`Servidor rodando na porta ${port}`)
+//Iniciando o servidor
+app.listen(3000, () => {
+  console.log(`Servidor rodando na porta 3000`)
 });
