@@ -1,0 +1,16 @@
+{
+    "produtos": [
+      {
+        "nome": "Camiseta branca",
+        "preco": 29.99,
+        "descricao": "Uma camiseta branca básica de algodão.",
+        "imagem": "https://exemplo.com/camiseta-branca.jpg"
+      },
+      {
+        "nome": "Calça jeans",
+        "preco": 79.99,
+        "descricao": "Uma calça jeans azul de corte reto.",
+        "imagem": "https://exemplo.com/calca-jeans.jpg"
+      }
+    ]
+  }

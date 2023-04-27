@@ -4,7 +4,7 @@ const app = express();
 
 //Pegando os controllers
 const usuariosController = require('./API/controllers/usuariosController');
-//const produtosController = require('./API/controllers/produtosController');
+const produtosController = require('./API/controllers/produtosController');
 
 // Configuração do middleware para processar o body da requisição como JSON
 app.use(express.json());
@@ -19,7 +19,7 @@ app.get('/', (req, res) => {
 app.use(usuariosController);
 
 // Inclua as rotas do controller de produtos
-//app.use(produtosController);
+app.use(produtosController);
 
 //Iniciando o servidor
 app.listen(3000, () => {
