@@ -3,8 +3,8 @@ const router = express.Router();
 const db = require('../Model/Usuario');
 
 // Rota POST para criar um novo usuário
-router.post('/usuarios', async (req, res) => {
-  const nome = req.body.nome;
+router.post('/register', async (req, res) => {
+  const nome = req.body.name;
   const email = req.body.email;
 
   try {
@@ -12,11 +12,15 @@ router.post('/usuarios', async (req, res) => {
     const user = await db.create(nome, email);
 
     // Retorne a resposta com o novo usuário criado
-    return res.status(201).json(user);
+    res.redirect('/login');
   } catch (err) {
     console.error(err);
-    return res.status(500).send('Erro ao criar usuário');
+    res.redirect('/register');
   }
+});
+
+router.get('/register', async (req, res) => {
+  res.render('register');
 });
 
 router.post('/login', (req, res) => {
