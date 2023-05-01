@@ -1,19 +1,28 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const app = express();
+const session = require('express-session');
+
 
 //Pegando os controllers
 const usuariosController = require('./API/controllers/usuariosController');
 const produtosController = require('./API/controllers/produtosController');
-
 const nunjucks = require('nunjucks');
 
+// Configuração para usar os templates
 nunjucks.configure('views', {
     autoescape: true,
     express: app
 });
 
 app.set('view engine', 'njk');
+
+// Configuração para autenticação de usuário
+app.use(session({
+  secret: 'sua_chave_secreta_aqui',
+  resave: false,
+  saveUninitialized: true
+}));
 
 
 // Configuração do middleware para processar o body da requisição como JSON

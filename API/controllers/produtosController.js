@@ -5,9 +5,10 @@ const produtosJson = require('../data/produtos.json');
 
 //Rota que pega todos produtos e renderiza o html 
 router.get('/produtos', (req, res) => {
+    const user = req.session.user.name
     db.getall().then(products => {
         console.log(products);
-        res.render('allproducts', { products: products });
+        res.render('allproducts', { products: products, user: user });
     });
   });
 

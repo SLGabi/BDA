@@ -19,4 +19,33 @@ router.post('/usuarios', async (req, res) => {
   }
 });
 
+router.post('/login', (req, res) => {
+  const email = req.body.email;
+  // autentica o usuário e guarda as informações na sessão
+  db.getuser(email).then(user => {
+    
+    if (user) {
+    req.session.user = {
+      email: user.email,
+      name: user.name,
+    };
+
+    res.redirect('/');
+    }
+    else {
+      res.redirect('/login');
+    }
+  });
+  
+});
+
+router.get('/login', (req, res) => {
+  res.render('login');
+});
+
+router.get('/logout', (req, res) => {
+  req.session.destroy();
+  res.redirect('/login');
+});
+
 module.exports = router;

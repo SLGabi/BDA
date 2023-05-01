@@ -12,6 +12,12 @@ const Usuario = {
         console.log(results);
         return results;
       })
-  }
+  },
+  getuser: async function (email) {
+    return (await db).command("SELECT FROM Customer WHERE email = :email", { params : [email]}).one().then(results => {
+      //console.log(results);
+      return results;
+    });
+  },
 };
 module.exports = Usuario;
