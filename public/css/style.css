@@ -44,7 +44,7 @@ h4 {
 
 #banner {
     height: 430px;
-    background-image: url(banner.jpg);
+    background-image: url(../img/banner.jpg);
     background-size: cover;
 }
 

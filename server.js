@@ -7,6 +7,7 @@ const session = require('express-session');
 //Pegando os controllers
 const usuariosController = require('./API/controllers/usuariosController');
 const produtosController = require('./API/controllers/produtosController');
+const recommendationController = require('./API/controllers/recommendationController');
 const nunjucks = require('nunjucks');
 
 // Configuração para usar os templates
@@ -29,11 +30,6 @@ app.use(session({
 app.use(express.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 
-// Rota principal que retorna o formulário HTML
-app.get('/', (req, res) => {
-  res.sendFile(__dirname + '/public/index.html');
-});
-
 app.use(express.static(__dirname + '/public'));
 
 // Inclua as rotas do controller de usuários
@@ -41,6 +37,9 @@ app.use(usuariosController);
 
 // Inclua as rotas do controller de produtos
 app.use(produtosController);
+
+// Inclua as rotas do controller da recomendação
+app.use(recommendationController);
 
 //Iniciando o servidor
 app.listen(3000, () => {

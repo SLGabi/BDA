@@ -5,20 +5,31 @@ const produtosJson = require('../data/produtos.json');
 
 //Rota que pega todos produtos e renderiza o html 
 router.get('/produtos', (req, res) => {
-    const user = req.session.user.name
-    db.getall().then(products => {
-        console.log(products);
-        res.render('allproducts', { products: products, user: user });
-    });
+    try {
+        const user = req.session.user.name
+        db.getall().then(products => {
+            console.log(products);
+            res.render('allproducts', { products: products, user: user });
+        });
+    }
+    catch (err) {
+        res.redirect('/login');
+    }
   });
 
 //Rota que pega um produto e renderiza o html 
 router.get('/produto/:id', (req, res) => {
     const { id } = req.params;
-    db.getproduct(id).then(product => {
-        console.log(product);
-        res.render('product', { product: product });
-    });
+    try {
+        const user = req.session.user.name
+        db.getproduct(id).then(product => {
+            console.log(product);
+            res.render('product', { product: product, user: user });
+        });
+    }
+    catch (err) {
+        res.redirect('/login');
+    }
   });
 
 // Rota POST para criar um novo produto no banco a partir do JSON
