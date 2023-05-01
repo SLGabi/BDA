@@ -11,7 +11,7 @@ router.post('/register', async (req, res) => {
     // Crie um novo nó no banco de dados para o usuário
     const user = await db.create(nome, email);
 
-    // Retorne a resposta com o novo usuário criado
+    
     res.redirect('/login');
   } catch (err) {
     console.error(err);

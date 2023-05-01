@@ -1,6 +1,8 @@
 const express = require('express');
 const router = express.Router();
 const db = require('../Model/Produto');
+const dbUser = require('../Model/Usuario');
+const dbEdge = require('../Model/Edge');
 const produtosJson = require('../data/produtos.json');
 
 //Rota que pega todos produtos e renderiza o html 
@@ -21,10 +23,17 @@ router.get('/produtos', (req, res) => {
 router.get('/produto/:id', (req, res) => {
     const { id } = req.params;
     try {
-        const user = req.session.user.name
+        const userName = req.session.user.name;
+        const email = req.session.user.email;
+
         db.getproduct(id).then(product => {
-            console.log(product);
-            res.render('product', { product: product, user: user });
+
+            dbEdge.viewTrue(email, id).then(edge => {
+                console.log(edge);
+                res.render('product', { product: product, user: userName });
+                
+            });
+            
         });
     }
     catch (err) {
