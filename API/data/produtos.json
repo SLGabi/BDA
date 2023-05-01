@@ -1,16 +1,70 @@
 {
-    "produtos": [
-      {
-        "nome": "Camiseta branca",
-        "preco": 29.99,
-        "descricao": "Uma camiseta branca básica de algodão.",
-        "imagem": "https://exemplo.com/camiseta-branca.jpg"
-      },
-      {
-        "nome": "Calça jeans",
-        "preco": 79.99,
-        "descricao": "Uma calça jeans azul de corte reto.",
-        "imagem": "https://exemplo.com/calca-jeans.jpg"
-      }
-    ]
-  }
+  "produtos": [
+    {
+      "nome": "Batom Matte",
+      "descricao": "Batom de alta fixação e acabamento matte, perfeito para um look sofisticado e duradouro. Disponível em diversas cores vibrantes.",
+      "preco": "29.90",
+      "imagem": "https://images.pexels.com/photos/7664366/pexels-photo-7664366.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+      "nome": "Camiseta Feminina",
+      "descricao": "Camiseta 100% algodão com modelagem confortável, ideal para um look casual e descolado.",
+      "preco": "49.90",
+      "imagem": "https://images.pexels.com/photos/4913257/pexels-photo-4913257.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+      "nome": "Creme Facial Hidratante",
+      "descricao": "Creme facial hidratante com fórmula leve e não oleosa, que proporciona hidratação profunda e proteção contra os raios UV.",
+      "preco": "79.90",
+      "imagem": "https://images.pexels.com/photos/5217926/pexels-photo-5217926.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+      "nome": "Livro - Aprendendo Python",
+      "descricao": "Livro de programação voltado para iniciantes que desejam aprender a linguagem Python. Contém exercícios práticos e exemplos de código.",
+      "preco": "59.90",
+      "imagem": "https://m.media-amazon.com/images/I/51kGf4ksX-L._SX348_BO1,204,203,200_.jpg"
+    },
+    {
+      "nome": "Calça Masculina",
+      "descricao": "Calça jeans masculina de corte reto e lavagem clássica, ideal para um look casual e elegante.",
+      "preco": "119.90",
+      "imagem": "https://images.pexels.com/photos/3220386/pexels-photo-3220386.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+      "nome": "Jogo de Videogame - GTA V",
+      "descricao": "Jogo de ação e aventura em mundo aberto, com gráficos realistas e diversos modos de jogo, incluindo o modo online.",
+      "preco": "149.90",
+      "imagem": "https://upload.wikimedia.org/wikipedia/pt/8/80/Grand_Theft_Auto_V_capa.png?20160908004357"
+    },
+    {
+      "nome": "Creme para Cabelo Cacheado",
+      "descricao": "Creme para pentear específico para cabelos cacheados, que define os cachos e reduz o frizz, deixando-os macios e hidratados.",
+      "preco": "39.90",
+      "imagem": "https://images.pexels.com/photos/9775102/pexels-photo-9775102.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+      "nome": "Livro - O Poder do Hábito",
+      "descricao": "Livro que explora a psicologia por trás dos hábitos e como podemos mudá-los para alcançar nossos objetivos.",
+      "preco": "34.90",
+      "imagem": "data:image/jpeg;base64,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"
+    },
+    {
+      "nome": "Máscara de Cílios",
+      "descricao": "Máscara de cílios que alonga e dá volume, deixando os cílios com aparência mais densa e definida.",
+      "preco": "39.90",
+      "imagem": "https://images.pexels.com/photos/7588590/pexels-photo-7588590.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+      "nome": "Jaqueta Jeans",
+      "descricao": "Jaqueta jeans com lavagem desbotada e botões personalizados, ideal para um look casual e descolado.",
+      "preco": "149.90",
+      "imagem": "https://images.pexels.com/photos/3538010/pexels-photo-3538010.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+      "nome": "Fone de Ouvido Bluetooth",
+      "descricao": "Fone de ouvido Bluetooth com cancelamento de ruído e bateria de longa duração, ideal para ouvir música ou fazer chamadas em qualquer lugar.",
+      "preco": "279.90",
+      "imagem": "https://images.pexels.com/photos/8534088/pexels-photo-8534088.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    }
+  ]
+}

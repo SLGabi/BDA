@@ -5,7 +5,7 @@ async function conectaBanco(){
   host: 'localhost',
   port: 2424
 });
-
+ 
   console.log("Connected");
   //abri a sessão
   let session = await client.session({ name: "BDA", username: "root", password: "191715" });

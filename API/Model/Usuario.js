@@ -1,4 +1,4 @@
-const db = require('../../banco');
+const db = require('../../bancoip');
 
 const Usuario = {
   create: async function (nome, email) {

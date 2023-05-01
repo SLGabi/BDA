@@ -1,4 +1,4 @@
-const db = require('../../banco');
+const db = require('../../bancoip');
 
 const Produto = {
   create: async function (nome, preco, descricao, imagem) {
@@ -12,6 +12,12 @@ const Produto = {
         console.log(results);
         return results;
       })
-  }
+  },
+  getall: async function () {
+    return (await db).command(`SELECT FROM Product`).all().then(results => {
+      //console.log(results);
+      return results;
+    })
+  },
 };
 module.exports = Produto;
