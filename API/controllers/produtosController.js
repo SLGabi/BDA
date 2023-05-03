@@ -10,7 +10,7 @@ router.get('/produtos', (req, res) => {
     try {
         const user = req.session.user.name
         db.getall().then(products => {
-            console.log(products);
+            //console.log(products);
             res.render('allproducts', { products: products, user: user });
         });
     }
@@ -26,15 +26,44 @@ router.get('/produto/:id', (req, res) => {
         const userName = req.session.user.name;
         const email = req.session.user.email;
 
-        db.getproduct(id).then(product => {
+        dbUser.hasViewEgde(userName, id).then(result => {
+            if (result.visualized === 0) {
+                db.getproduct(id).then(product => {
+                    dbEdge.viewTrue(email, id).then(edge => {
+                        //console.log(edge);
+                        res.render('product', { product: product, user: userName });
+                    });
+                });        
+            } else {
+                db.getproduct(id).then(product => {
+                    res.render('product', { product: product, user: userName });
+                });
+            }
+        })
+    }
+    catch (err) {
+        res.redirect('/login');
+    }
+  });
 
-            dbEdge.viewTrue(email, id).then(edge => {
-                console.log(edge);
-                res.render('product', { product: product, user: userName });
-                
-            });
-            
-        });
+//Rota para comprar um produto
+router.get('/produto/comprar/:id', (req, res) => {
+    const { id } = req.params;
+    try {
+        const userName = req.session.user.name;
+        const email = req.session.user.email;
+        
+        dbUser.hasBuyEgde(userName, id).then(result => {
+            //console.log(result)
+            if (result.hasBought === 0) {
+                dbEdge.buyTrue(email, id).then(edge => {
+                    //console.log(edge);
+                    res.redirect('/');
+                });
+            } else {
+                res.redirect('/');
+            }
+        })
     }
     catch (err) {
         res.redirect('/login');
@@ -49,7 +78,7 @@ router.get('/criarProdutos', async (req, res) => {
             const { nome, preco, descricao, imagem } = produto;
             
                 // Crie um novo nó no banco de dados para os produtos
-                console.log(id)
+                //console.log(id)
                 const product = await db.create(nome, preco, descricao, imagem, id);
                 id += 1;
                 // Retorne a resposta com o novo produto criado

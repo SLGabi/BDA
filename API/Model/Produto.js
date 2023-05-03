@@ -1,4 +1,4 @@
-const db = require('../../bancoip');
+const db = require('../../banco.js');
 
 const Produto = {
   create: async function (nome, preco, descricao, imagem, id) {
@@ -9,7 +9,7 @@ const Produto = {
     })
       .all()
       .then(results => {
-        console.log(results);
+        //console.log(results);
         return results;
       });
   },
