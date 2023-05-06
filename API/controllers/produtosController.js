@@ -26,10 +26,10 @@ router.get('/produto/:id', (req, res) => {
         const userName = req.session.user.name;
         const email = req.session.user.email;
 
-        dbUser.hasViewEgde(userName, id).then(result => {
-            if (result.visualized === 0) {
+        dbUser.hasInteraction(email, id).then(result => {
+            if (result.type === 0) {
                 db.getproduct(id).then(product => {
-                    dbEdge.viewTrue(email, id).then(edge => {
+                    dbEdge.view(email, id).then(edge => {
                         //console.log(edge);
                         res.render('product', { product: product, user: userName });
                     });
@@ -53,17 +53,11 @@ router.get('/produto/comprar/:id', (req, res) => {
         const userName = req.session.user.name;
         const email = req.session.user.email;
         
-        dbUser.hasBuyEgde(userName, id).then(result => {
             //console.log(result)
-            if (result.hasBought === 0) {
-                dbEdge.buyTrue(email, id).then(edge => {
-                    //console.log(edge);
-                    res.redirect('/');
-                });
-            } else {
+            dbEdge.buy(email, id).then(edge => {
+                //console.log(edge);
                 res.redirect('/');
-            }
-        })
+            });
     }
     catch (err) {
         res.redirect('/login');
