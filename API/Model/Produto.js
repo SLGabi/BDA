@@ -26,10 +26,7 @@ const Produto = {
     });
   },
   getrecommendation: async function () {
-    return (await db).command(`SELECT FROM Product WHERE id = 0 or id = 1 or id = 2 or id = 3`).all().then(results => {
-      //console.log(results);
-      return results;
-    });
+    return (await db).command(`SELECT FROM Product WHERE id = 0 or id = 1 or id = 2 or id = 3`).all();
   }
 };
 module.exports = Produto;

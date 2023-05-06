@@ -19,14 +19,8 @@ const Usuario = {
       return results;
     });
   },
-  hasBuyEgde: async function (name, id) {
-    return (await db).command("SELECT count(*) AS hasBought FROM (SELECT expand(out('HasBought')) FROM Customer WHERE name = :name) WHERE @class = 'Product' AND id = :id", { params : [name, id]}).one().then(results => {
-      //console.log(results);
-      return results;
-    });
-  },
-  hasViewEgde: async function (name, id) {
-    return (await db).command("SELECT count(*) AS visualized FROM (SELECT expand(out('Visualized')) FROM Customer WHERE name = :name) WHERE @class = 'Product' AND id = :id", { params : [name, id]}).one().then(results => {
+  hasInteraction: async function (email, id) {
+    return (await db).command("SELECT count(*) AS type FROM (SELECT expand(out('Interaction')) FROM Customer WHERE email = :email) WHERE @class = 'Product' AND id = :id", { params : [email, id]}).one().then(results => {
       //console.log(results);
       return results;
     });
