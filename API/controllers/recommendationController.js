@@ -44,22 +44,21 @@ router.get('/', async (req, res) => {
                     'similarity': similaridade
                 });
             } else {
-                similaridades.push({
+                /*similaridades.push({
                     'email': user.email,
                     'similarity': -1
-                });
+                });*/
             }
         }
         similaridades.sort((a, b) => b.similarity - a.similarity);
         const similarityNeig = similaridades.slice(0, 3).map(object => object.email);
-        
         let candidates = [];
 
+        let count = 3;
         for (neig of similarityNeig) {
             const productsNeig = await db.getAllProductsCustomer(neig);
             const candidatesAux = productsNeig.filter(a => !productsUser.find(b => b.id === a.id));
 
-            let count = 3;
             for (candidate of candidatesAux) {
                 let type = await db.getInteractionType(neig, candidate.id);
                 type = (+type.type) + 1;
@@ -74,8 +73,9 @@ router.get('/', async (req, res) => {
                         'score': count * type
                     });
                 }
-                count--;
+                
             }
+            count--;
         }
         candidates.sort((a, b) => b.score - a.score);
         candidates = candidates.slice(0, 4);
