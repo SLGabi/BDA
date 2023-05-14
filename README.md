@@ -4,7 +4,7 @@ Este repositório contém um projeto de simulação de um e-commerce, demonstran
 
 ## Descrição
 
-O objetivo deste projeto é exemplificar o uso de um algoritmo de recomendação em um cenário de e-commerce. O algoritmo utiliza um banco de dados orientado a grafo para armazenar informações sobre produtos, clientes, compras e vizualizações de produtos. Ele é capaz de analisar o histórico de compras dos clientes e suas interações com os produtos para fazer recomendações personalizadas.
+O objetivo deste projeto é exemplificar o uso de um algoritmo de recomendação em um cenário de e-commerce. O algoritmo utiliza um banco de dados orientado a grafo para armazenar informações sobre produtos, clientes, compras e visualizações de produtos. Ele é capaz de analisar o histórico de compras dos clientes e suas interações com os produtos para fazer recomendações personalizadas.
 
 ## Funcionalidades
 
@@ -13,7 +13,7 @@ O projeto possui as seguintes funcionalidades:
 - **Cadastro de Clientes**: Permite o cadastro de novos clientes no sistema.
 - **Cadastro de Produtos**: Permite o cadastro de produtos no sistema através de um arquivo json.
 - **Realização de Compras**: Permite que os clientes realizem compras de produtos.
-- **Recomendação de Produtos**: Com base no histórico de compras e vizualizações de produtos do cliente, o algoritmo de recomendação sugere produtos relevantes.
+- **Recomendação de Produtos**: Com base no histórico de compras e visualizações de produtos do cliente, o algoritmo de recomendação sugere produtos relevantes.
 
 ## Banco de Dados Orientado a Grafo
 
@@ -25,7 +25,7 @@ O projeto utiliza um algoritmo de recomendação baseado na similaridade de usu�
 
 O processo de recomendação ocorre da seguinte maneira:
 
-1. **Coleta de Dados**: O algoritmo coleta informações sobre as interações realizadas pelos usuários com os produto, como visualizações e compras.
+1. **Coleta de Dados**: O algoritmo coleta informações sobre as interações realizadas pelos usuários com os produtos, como visualizações e compras.
 
 2. **Cálculo da Similaridade**: Com base nos dados coletados, o algoritmo calcula a similaridade entre os usuários usando o coeficiente de similaridade de cossenos. Esse cálculo envolve a comparação dos padrões de compras e visualizações entre os usuários.
 
