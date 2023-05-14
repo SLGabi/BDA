@@ -38,7 +38,7 @@ router.get('/', async (req, res) => {
                 const normaB = Math.sqrt(vetNeig.reduce((acc, val) => acc + val * val, 0));
 
                 // Calcula a similaridade de cosseno
-                const similaridade = produtoEscalar / (normaA * normaB);
+                const similaridade = (produtoEscalar / (normaA * normaB)) * result.length;
                 similaridades.push({
                     'email': user.email,
                     'similarity': similaridade
@@ -53,6 +53,7 @@ router.get('/', async (req, res) => {
         similaridades.sort((a, b) => b.similarity - a.similarity);
         const similarityNeig = similaridades.slice(0, 3).map(object => object.email);
         let candidates = [];
+         console.log(similaridades)
 
         let count = 3;
         for (neig of similarityNeig) {
@@ -78,7 +79,8 @@ router.get('/', async (req, res) => {
             count--;
         }
         candidates.sort((a, b) => b.score - a.score);
-        candidates = candidates.slice(0, 4);
+        console.log(candidates)
+        candidates = candidates.slice(0, 8);
         let products = []
         for (candidate of candidates) {
             const product = await dbProduct.getproduct(candidate.id);

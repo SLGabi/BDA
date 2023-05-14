@@ -65,6 +65,522 @@
       "descricao": "Fone de ouvido Bluetooth com cancelamento de ruído e bateria de longa duração, ideal para ouvir música ou fazer chamadas em qualquer lugar.",
       "preco": "279.90",
       "imagem": "https://images.pexels.com/photos/8534088/pexels-photo-8534088.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-    }
+    },
+    {
+      "nome": "O Senhor dos Anéis: A Sociedade do Anel",
+      "descricao": "O Senhor dos Anéis: A Sociedade do Anel é o primeiro volume da trilogia épica escrita por J.R.R. Tolkien. A história se passa em um mundo fantástico repleto de aventuras, batalhas e criaturas mágicas. Acompanhe Frodo Baggins e seus amigos na perigosa jornada para destruir o Um Anel e salvar a Terra-média da escuridão.",
+      "preco": "49.99",
+      "imagem": "https://m.media-amazon.com/images/I/81SWBRKfExL.jpg"
+    },
+    {
+      "nome": "Harry Potter e a Pedra Filosofal",
+      "descricao": "Harry Potter e a Pedra Filosofal é o primeiro livro da famosa série escrita por J.K. Rowling. Nesta emocionante história, acompanhamos o jovem bruxo Harry Potter em sua jornada de descobertas na Escola de Magia e Bruxaria de Hogwarts. Enfrente desafios, faça novos amigos e descubra os segredos por trás da misteriosa Pedra Filosofal.",
+      "preco": "39.99",
+      "imagem": "https://m.media-amazon.com/images/I/81ibfYk4qmL.jpg"
+    },
+    {
+      "nome": "A Guerra dos Tronos",
+      "descricao": "A Guerra dos Tronos é o primeiro livro da série As Crônicas de Gelo e Fogo, escrita por George R.R. Martin. Neste livro, somos apresentados a um mundo medieval cheio de intriga, política e batalhas pelo controle do Trono de Ferro. Prepare-se para se envolver em uma trama repleta de personagens cativantes e reviravoltas surpreendentes.",
+      "preco": "54.99",
+      "imagem": "https://m.media-amazon.com/images/I/81PwI+b9+cL.jpg"
+    },
+    {
+      "nome": "Assassin's Creed Odyssey",
+      "descricao": "Assassin's Creed Odyssey é um jogo de ação e aventura ambientado na Grécia Antiga. Neste jogo, você assume o papel de um(a) espartano(a) que embarca em uma jornada épica através de ilhas deslumbrantes, participando de batalhas intensas e tomando decisões que podem mudar o curso da história. Descubra segredos, enfrente inimigos e torne-se uma lenda viva.",
+      "preco": "79.99",
+      "imagem": "https://m.media-amazon.com/images/I/81yT+IG+m7S.jpg"
+    },
+    {
+      "nome": "The Legend of Zelda: Breath of the Wild",
+      "descricao": "Jogo de aventura da Nintendo para o console Switch",
+      "preco": "159.99",
+      "imagem": "https://m.media-amazon.com/images/I/81yCdxV54SL._AC_SY500_.jpg"
+      },
+      
+      {
+      "nome": "Ready Player Two",
+      "descricao": "Livro de ficção científica e aventura escrita por Ernest Cline",
+      "preco": "28.99",
+      "imagem": "https://kbimages1-a.akamaihd.net/37ad5956-a254-49ad-935b-55dcf874f427/353/569/90/False/ready-player-two-6.jpg"
+      },
+      
+      {
+      "nome": "Super Mario Party",
+      "descricao": "Jogo de festa da Nintendo para o console Switch",
+      "preco": "99.99",
+      "imagem": "https://i.zst.com.br/thumbs/12/24/37/737326970.jpg"
+      },
+      
+      {
+      "nome": "Horizon Zero Dawn",
+      "descricao": "Jogo de ação e aventura da Guerilla Games para o console PS4",
+      "preco": "79.99",
+      "imagem": "https://images-americanas.b2w.io/produtos/01/00/item/130836/1/130836199_1GG.jpg"
+      },
+      
+      {
+      "nome": "The Lord of the Rings Trilogy Box Set",
+      "descricao": "Conjunto de livros de fantasia épica escritos por J.R.R. Tolkien",
+      "preco": "434.99",
+      "imagem": "https://m.media-amazon.com/images/I/41mMEFQI85L._SX389_BO1,204,203,200_.jpg"
+      },
+      
+      {
+      "nome": "Death Stranding",
+      "descricao": "Jogo de ação e aventura da Kojima Productions para o console PS4",
+      "preco": "89.99",
+      "imagem": "https://image.api.playstation.com/vulcan/ap/rnd/202106/2214/7aFAQ28D5avzogf7TFg11ryH.png"
+      },
+      {
+        "nome": "Bola de Futebol",
+        "descricao": "Bola de futebol profissional, tamanho 5.",
+        "preco": "49,90",
+        "imagem": "https://images.tcdn.com.br/img/img_prod/646374/bola_de_futebol_juvenil_n_5_271_1_20201213220437.jpg"
+        },
+        {
+        "nome": "Mochila Escolar",
+        "descricao": "Mochila escolar com estampa de unicórnio e três compartimentos.",
+        "preco": "79,90",
+        "imagem": "https://a-static.mlcdn.com.br/800x560/mochila-escolar-feminina-de-unicornio-rosa-unicornio-zoop/superxinfo2/628066/ddce9a0de10f7996c1bcbe6565d2d62b.jpg"
+        },
+        {
+        "nome": "Headset Gamer",
+        "descricao": "Fone de ouvido com microfone retrátil e iluminação de LED.",
+        "preco": "219,90",
+        "imagem": "https://a-static.mlcdn.com.br/1500x1500/fone-de-ouvido-gamer-b-max-bm216-headset-bmax/orioonxstore/headfo-nebm216/06fab37ad6301df3fd0db23edd2afccd.jpeg"
+        },
+        {
+        "nome": "Luminária de Mesa",
+        "descricao": "Luminária de mesa com braço flexível e três intensidades de luz.",
+        "preco": "49,90",
+        "imagem": "https://dcu3z7fnvhgqn.cloudfront.net/Custom/Content/Products/14/47/14478_luminaria-de-mesa-led-preto-4w-3000k-luz-amarela-yamamura-p9204806_m1_637995420887370542.jpg"
+        },
+        {
+          "nome": "Calça Jeans",
+          "descricao": "Calça jeans, lavagem escura.",
+          "preco": "89,90",
+          "imagem": "https://images.tcdn.com.br/img/img_prod/891360/calca_jeans_skinny_basic_jeans_escuro_1363_1_5821c64329468a016a7314fa7647000c.jpg"
+          },
+          {
+          "nome": "Batom Vermelho",
+          "descricao": "Batom líquido matte, cor vermelho intenso.",
+          "preco": "25,00",
+          "imagem": "https://oceane.vtexassets.com/arquivos/ids/201309/AP2000096C003T_batom_vermelho_matte_marilia_mendonca_by_oceane_red_star_1.jpg?v=638126956821570000"
+          },
+          {
+          "nome": "Sapato Social",
+          "descricao": "Sapato social de couro preto com sola de borracha.",
+          "preco": "159,90",
+          "imagem": "https://static.netshoes.com.br/produtos/sapato-social-masculino-conforto-calce-facil-amortecimento-macio-sf-outlet/06/2YM-0105-006/2YM-0105-006_zoom1.jpg?ts=1654109404"
+          },
+          {
+          "nome": "Mouse Gamer",
+          "descricao": "Mouse para jogos com 7 botões programáveis e luz de LED.",
+          "preco": "119,90",
+          "imagem": "https://leonora.vteximg.com.br/arquivos/ids/163584/Mouse-Gamer-RGB-6-Botoes-7200-Letron-74311.png?v=638037703936400000"
+          },
+          {
+            "nome": "Jogo de Tabuleiro: Carcassonne",
+            "descricao": "Jogo de estratégia em que os jogadores constroem o mapa de uma cidade medieval.",
+            "preco": "139,90",
+            "imagem": "https://themitm.files.wordpress.com/2019/10/img-20191002-wa0006219976282.jpg?w=584"
+          },
+          {
+            "nome": "Calça Jeans: Skinny",
+            "descricao": "Calça jeans feminina skinny, cintura alta.",
+            "preco": "99,90",
+            "imagem": "https://adaptive-images.uooucdn.com.br/ik-seo/tr:w-1100,h-1594,c-at_max,pr-true,q-80/a186-ofzeua/pv/4c/76/0d/404b9e6a3a2d0cc2712f72ee0c/calca-jeans-skinny-barra-dobrada-large-2.jpg"
+          },
+          {
+            "nome": "Batom Líquido Matte: Nude",
+            "descricao": "Batom líquido matte na cor nude.",
+            "preco": "19,90",
+            "imagem": "https://marimaria.vteximg.com.br/arquivos/ids/156434/MUSTLIP-min.jpg?v=637152574888770000"
+          },
+          {
+            "nome": "Livro: A Menina que Roubava Livros",
+            "descricao": "Romance histórico escrito por Markus Zusak.",
+            "preco": "39,90",
+            "imagem": "https://m.media-amazon.com/images/I/61FK05++esL._AC_SX522_.jpg"
+          },
+          {
+            "nome": "Conjunto de Pincéis de Maquiagem",
+            "descricao": "Conjunto de 10 pincéis de maquiagem profissional.",
+            "preco": "59,90",
+            "imagem": "https://m.media-amazon.com/images/I/61dRiMVKQrL._AC_SY355_.jpg"
+         },
+         {
+          "nome": "Blusa: Camiseta de Algodão",
+          "descricao": "Camiseta feminina de algodão com estampa de flor.",
+          "preco": "29,90",
+          "imagem": "https://cea.vtexassets.com/arquivos/ids/24720287/Camiseta-Feminina-Flor-Manga-Curta-Decote-Redondo-Off-White-9974551-Off_White_2.jpg?v=637468614611100000"
+        },
+        {
+          "nome": "Kit de Maquiagem: Batom e Máscara de Cílios",
+          "descricao": "Kit de maquiagem contendo um batom vermelho e uma máscara de cílios.",
+          "preco": "89,90",
+          "imagem": "https://oceane.vtexassets.com/arquivos/ids/201223-800-800?v=638019572073300000&width=800&height=800&aspect=true"
+        },
+        {
+          "nome": "Base Líquida Matte",
+          "descricao": "A Base Líquida Matte proporciona uma cobertura perfeita e de longa duração. Sua fórmula matte controla a oleosidade e deixa a pele com aspecto natural e aveludado.",
+          "preco": "34.99",
+          "imagem": "https://s2.glbimg.com/Y79jfFFLZKAVzm6sMHEX9-BnLXk=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_51f0194726ca4cae994c33379977582d/internal_photos/bs/2023/g/0/HiKxzYS9eKxbAsGy8okQ/329379614-1672195746567432-1978949808727781608-n.jpg"
+        },
+        {
+          "nome": "Batom Hidratante",
+          "descricao": "O Batom Hidratante oferece uma cor intensa e hidratação aos lábios. Com uma textura cremosa e acabamento brilhante, proporciona conforto e maciez durante o dia todo.",
+          "preco": "15.99",
+          "imagem": "https://res.cloudinary.com/beleza-na-web/image/upload/w_1500,f_auto,fl_progressive,q_auto:eco,w_800/v1/imagens/product/20052290/6b29a9c4-5a8f-4091-983a-93866146c341-payot-hidratante-rosa-batom-360g.png"
+        },
+        {
+          "nome": "Hidratante Facial Noturno",
+          "descricao": "O Hidratante Facial Noturno é ideal para revitalizar a pele durante o sono. Sua fórmula rica em nutrientes e antioxidantes ajuda a combater os sinais de envelhecimento e deixa a pele macia e hidratada.",
+          "preco": "42.99",
+          "imagem": "https://epocacosmeticos.vteximg.com.br/arquivos/ids/524312-500-500/Hidratante-Facial-Nivea---Creme-Facial-Noturno-2--1-.jpg?v=638060209867230000"
+        },
+        {
+          "nome": "Sombra Compacta",
+          "descricao": "A Sombra Compacta possui uma textura suave e pigmentação intensa. Com diversas cores disponíveis, permite criar diferentes looks e realçar a beleza dos olhos.",
+          "preco": "18.75",
+          "imagem": "https://images.tcdn.com.br/img/img_prod/704898/sombra_compacta_neve_nathalia_capelo_3759_1_20201118104431.jpg"
+        },
+        {
+          "nome": "Almofada Decorativa Geométrica",
+          "descricao": "A Almofada Decorativa Geométrica é perfeita para adicionar um toque moderno e elegante à sua decoração. Com estampa geométrica e cores vibrantes, é ideal para sofás, poltronas e camas.",
+          "preco": "29.99",
+          "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlfbXo8T4Ing7EyutXI1PbrAKWJmmnwourCQ&usqp=CAU"
+        },
+        {
+          "nome": "Quadro Abstrato em Tons Pastel",
+          "descricao": "O Quadro Abstrato em Tons Pastel traz delicadeza e estilo para suas paredes. Com um design abstrato e cores suaves, é uma peça de destaque em qualquer ambiente.",
+          "preco": "79.99",
+          "imagem": "https://d3ugyf2ht6aenh.cloudfront.net/stores/001/205/883/products/quadro-abstrato-lua-tons-pasteis-emporio-dos-quadros-canvas-moldura-crua-retangulo-0daa10533b7e904c0e16513341368862-640-0.jpg"
+        },
+        {
+          "nome": "Vaso de Cerâmica com Plantas Artificiais",
+          "descricao": "O Vaso de Cerâmica com Plantas Artificiais traz a beleza das plantas para a sua casa sem a necessidade de cuidados constantes. Com um vaso elegante e plantas realistas, adiciona vida e frescor ao ambiente.",
+          "preco": "39.99",
+          "imagem": "https://cdn.leroymerlin.com.br/products/conjunto_de_vaso_alto_e_vaso_mascara_de_ceramica_na_cor_preta_1567310359_e03e_600x600.jpg"
+        },
+        {
+          "nome": "Tapete de Fibra Natural",
+          "descricao": "O Tapete de Fibra Natural é uma opção sustentável e sofisticada para o seu lar. Feito de materiais naturais, como juta ou sisal, oferece um toque de rusticidade e conforto para qualquer cômodo.",
+          "preco": "89.99",
+          "imagem": "https://cdn.dooca.store/1359/products/o70tjery1htqgnquv7yj3jyptalw9ywxv616_640x640+fill_ffffff.jpg?v=1606830474&webp=0"
+        },
+        {
+          "nome": "Cortina de Voil Transparente",
+          "descricao": "A Cortina de Voil Transparente é perfeita para trazer leveza e elegância às janelas. Com um tecido delicado e translúcido, permite a entrada de luz natural e cria um ambiente acolhedor.",
+          "preco": "49.99",
+          "imagem": "https://images.yampi.me/assets/stores/decoramaiscasa/uploads/images/cortina-de-cozinha-voil-transparente-200-x-150-branca-5ff4afa60d513-large.jpg"
+        },
+        {
+          "nome": "Espelho Decorativo com Moldura de Metal",
+          "descricao": "O Espelho Decorativo com Moldura de Metal é um item versátil e estiloso para qualquer parede. Sua moldura de metal adiciona um toque industrial e contemporâneo ao ambiente.",
+          "preco": "59.99",
+          "imagem": "https://cdn.shoppub.io/cdn-cgi/image/w=1000,h=1000,q=80,f=auto/oridecor/media/uploads/produtos/foto/sqbesfjg/8d49fb001012f6696f2cbcc4dacd82b6.jpeg"
+        },
+        {
+          "nome": "Candelabro de Vidro com Velas",
+          "descricao": "O Candelabro de Vidro com Velas é perfeito para criar um ambiente aconchegante e romântico. Com seu design elegante e velas suaves, adiciona um toque de sofisticação à decoração.",
+          "preco": "34.99",
+          "imagem": "https://images.tcdn.com.br/img/img_prod/691836/candelabro_com_cinco_copos_e_velas_245_2_20190511235452.jpg"
+        },
+        {
+          "nome": "Teclado musical infantil",
+          "descricao": "Teclado para crianças, possuindo 10 teclas e sons de animais",
+          "preco": "39.99",
+          "imagem": "https://m.media-amazon.com/images/I/41yKKB13v6L._AC_SX355_.jpg"
+          },
+          {
+          "nome": "Balanço infantil",
+          "descricao": "Balanço azul menino, para pendurar em qualquer lugar",
+          "preco": "80.00",
+          "imagem": "https://images.tcdn.com.br/img/img_prod/682470/balanco_infantil_suspenso_menino_bebe_azul_brinquedo_crianca_1815_1_112683308ce0238cbb0ed87ad1f30fab.jpg"
+          },
+          {
+          "nome": "Casa da barbie",
+          "descricao": "Casa da barbie rosa para meninas",
+          "preco": "89.99",
+          "imagem": "https://http2.mlstatic.com/D_NQ_NP_838461-MLB51133051842_082022-O.jpg"
+          },
+          {
+          "nome": "Carrinho hot weels",
+          "descricao": "Carrinho edição limitada hotweels laranja",
+          "preco": "299.99",
+          "imagem": "https://cf.shopee.com.br/file/11f8f05b5adef09b711824c0579c044d"
+          },
+          {
+          "nome": "Fogãozinho rosa",
+          "descricao": "Fogão de brinquedo rosa, conjunto de panelinhas e forno",
+          "preco": "199.99",
+          "imagem": "https://images.tcdn.com.br/img/img_prod/783352/kit_fogao_completo_panelinhas_brinquedo_menina_cozinha_8585_1_02d49bd6b8e2516a0becc98e3573e9b4.jpg"
+          },
+          {
+          "nome": "Buzz Lightyear musical",
+          "descricao": "Boneco do Toy Story Buzz Lightyear, reproduz várias frases do personagem, pilhas médias.",
+          "preco": "200.00",
+          "imagem": "https://http2.mlstatic.com/D_NQ_NP_752390-MLB44869929823_022021-O.webp"
+          },
+          {
+            "nome": "Boneca suzy baby",
+            "descricao": "Boneca suzy baby loira, vem com um carrinho para empurrá-la.",
+            "preco": "99.99",
+            "imagem": "https://cdn.awsli.com.br/600x450/1997/1997350/produto/13202753694bd005bb8.jpg"
+            },
+            {
+            "nome": "Arma d'água",
+            "descricao": "Arma de brinquedo que atira água, perfeito para dias quentes na piscina.",
+            "preco": "59.90",
+            "imagem": "https://a-static.mlcdn.com.br/800x560/arma-de-brinquedo-pistola-de-agua-com-reservatorio-amarelo-wellkids/kubomixltda/wbu2487am/4ad0c538732cb2e245ee46eedb87d121.jpeg"
+            },
+            {
+            "nome": "Bicicleta rosa infantil",
+            "descricao": "Bicicleta infantil na cor rosa, possuindo rodinhas, cestinha e suporte para garrafas d'água.",
+            "preco": "899.90",
+            "imagem": "https://images-americanas.b2w.io/produtos/4878516486/imagens/bicicleta-infantil-aro-12-com-rodinhas-nathor-violet-de-3-a-5-anos/4878516486_1_large.jpg"
+            },
+            {
+            "nome": "Kit peppa pig",
+            "descricao": "O kit contém uma bolsa, um telefone, um pente, um batom e chaves, sendo tudo de plástico.",
+            "preco": "59.90",
+            "imagem": "https://imgs.extra.com.br/1513389529/1xg.jpg?imwidth=500"
+            },
+            {
+              "nome": "Smartwatch",
+              "descricao": "Relógio inteligente com diversas funcionalidades, como monitoramento de atividades físicas, notificações de mensagens e chamadas, e controle de música. Compatível com smartphones Android e iOS.",
+              "preco": "299.90",
+              "imagem": "https://m.media-amazon.com/images/I/51bm67Iu8PL._AC_SX425_.jpg"
+              },
+              {
+              "nome": "Câmera DSLR",
+              "descricao": "Câmera profissional DSLR com sensor de alta resolução, recursos avançados e excelente qualidade de imagem. Ideal para fotógrafos e entusiastas da fotografia.",
+              "preco": "1999.90",
+              "imagem": "https://s2.glbimg.com/AxixvvA3-qyM4JeBdZmGeCe5HQU=/0x0:695x463/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2021/R/O/eOi78uRKiSX96sd00XTQ/2016-07-14-canon-7d.png"
+              },
+              {
+              "nome": "Notebook Gamer",
+              "descricao": "Notebook de alta performance voltado para jogos, com processador potente, placa de vídeo dedicada e tela de alta definição. Perfeito para gamers e entusiastas de jogos.",
+              "preco": "3999.90",
+              "imagem": "https://img.kalunga.com.br/fotosdeprodutos/218289z_2.jpg"
+              },
+              {
+              "nome": "Roteador Wi-Fi",
+              "descricao": "Roteador de alta velocidade com tecnologia Wi-Fi avançada, ideal para conectar múltiplos dispositivos e garantir uma conexão estável e rápida em sua casa ou escritório.",
+              "preco": "149.90",
+              "imagem": "https://cdn.shoppub.io/cdn-cgi/image/w=1000,h=1000,q=80,f=auto/oficinadosbits/media/uploads/produtos/foto/fylujkcv/file.png"
+              },
+              {
+              "nome": "Câmera de Segurança Inteligente",
+              "descricao": "Câmera de segurança com tecnologia avançada, conexão Wi-Fi e controle remoto via smartphone. Permite monitorar sua casa ou escritório de forma prática e segura.",
+              "preco": "199.90",
+              "imagem": "https://s2.glbimg.com/zYP2HtFSA0Q8OTWzbUcOZzAdx98=/0x0:1440x900/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2020/a/g/4j26sLT4eFFQiz5yTkPQ/positivo.png"
+              },
+              {
+                "nome": "Teclado Mecânico RGB",
+                "descricao": "Teclado mecânico com iluminação RGB personalizável e switches táteis para uma experiência de digitação premium.",
+                "preco": "199.90",
+                "imagem": "https://m.media-amazon.com/images/I/61gRw-ooKrL._AC_SY450_.jpg"
+              },
+              {
+                "nome": "Monitor Curvo Ultrawide",
+                "descricao": "Monitor curvo ultrawide de 34 polegadas com resolução QHD e taxa de atualização de 144Hz para uma imersão visual incrível.",
+                "preco": "999.90",
+                "imagem": "https://img.olhardigital.com.br/wp-content/uploads/2023/01/odyssey-g9-57-2.webp"
+              },
+              {
+                "nome": "Impressora 3D",
+                "descricao": "Impressora 3D de alta precisão e fácil utilização, ideal para prototipagem rápida e criação de objetos personalizados.",
+                "preco": "699.90",
+                "imagem": "https://m.media-amazon.com/images/I/71YIfst3UhS._AC_SY450_.jpg"
+              },
+              {
+                "nome": "Drone Quadcopter",
+                "descricao": "Drone quadcopter com câmera HD integrada e controle remoto, possibilitando capturar imagens aéreas impressionantes.",
+                "preco": "349.90",
+                "imagem": "https://m.media-amazon.com/images/I/617uY4D1nDL._AC_SX425_.jpg"
+              },
+              {
+                "nome": "Cadeira Gamer",
+                "descricao": "Cadeira gamer ergonômica com ajustes de altura, inclinação e apoio para os braços, proporcionando conforto durante as sessões de jogos.",
+                "preco": "499.90",
+                "imagem": "https://images-americanas.b2w.io/produtos/1514949029/imagens/cadeira-gamer-office-giratoria-com-elevacao-a-gas-tgc12-h01-preto-vermelho-thunderx3/1514949037_1_large.jpg"
+              },
+              {
+                "nome": "Roteador Wi-Fi Mesh",
+                "descricao": "Roteador Wi-Fi mesh que cria uma rede de alta velocidade e cobertura ampla em toda a casa, eliminando áreas de sinal fraco.",
+                "preco": "249.90",
+                "imagem": "https://consumer.huawei.com/content/dam/huawei-cbg-site/common/mkt/pdp/routers/wifi-mesh/img/pc/huawei-wiFi-mesh.jpg"
+              },
+              {
+                "nome": "Câmera de Vídeo 360",
+                "descricao": "Câmera de vídeo 360 graus com resolução 4K e estabilização de imagem, ideal para capturar momentos imersivos e panorâmicos.",
+                "preco": "299.90",
+                "imagem": "https://s2.glbimg.com/OdCTKEuSgHHs2N4ReJ2nWzZeZaw=/0x0:695x463/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2021/v/c/QTNHqSQfKI86JO9uHSOQ/2017-03-29-gear-360.png"
+              },
+              {
+                "nome": "Headset VR",
+                "descricao": "Headset de realidade virtual com alta resolução e rastreamento preciso, proporcionando uma experiência imersiva em jogos e conteúdo VR.",
+                "preco": "599.90",
+                "imagem": "https://m.media-amazon.com/images/I/61Uy4GVp-UL._AC_SY450_.jpg"
+              },
+              {
+                "nome": "Carregador sem Fio",
+                "descricao": "Carregador sem fio com design compacto e carregamento rápido, compatível com smartphones e dispositivos habilitados para Qi.",
+                "preco": "39.90",
+                "imagem": "https://m.media-amazon.com/images/I/61oIAKY9s1L._AC_SY450_.jpg"
+              },
+              {
+                "nome": "Relógio Automático",
+                "descricao": "O Relógio Automático é uma combinação perfeita de estilo e funcionalidade. Com um design elegante e movimento automático, é o presente ideal para pais que apreciam acessórios de qualidade.",
+                "preco": "299.99",
+                "imagem": "https://montblancbr.vteximg.com.br/arquivos/ids/164084-490-490/Relogio-Automatico-1858-Iced-Sea-Preto-Montblanc-129372_6.png?v=637901347683430000"
+              },
+              {
+                "nome": "Kit de Barbear Clássico",
+                "descricao": "O Kit de Barbear Clássico é uma opção de presente sofisticada e prática. Composto por um pincel de barba, sabão em barra e suporte, oferece uma experiência de barbear tradicional e luxuosa.",
+                "preco": "89.99",
+                "imagem": "https://images.tcdn.com.br/img/img_prod/491336/kit_barber_classic_safety_razor_viking_apothecary_647_1_00cab2552a317dd331a584264261cc36.jpg"
+              },
+              {
+                "nome": "Caneca cachorrinho",
+                "descricao": "Caneca com estampa de cachorrinho, criativa, engraçada.",
+                "preco": "24.99",
+                "imagem": "https://img.elo7.com.br/product/zoom/34B4A6F/caneca-personalizada-frase-cuidado-caneca-que-late-tem-dono.jpg"
+              },
+              {
+                "nome": "Caneca com frase criativa",
+                "descricao": "Caneca com frase criativa e engraçada. Ideal para presente de dia dos namorados",
+                "preco": "24.99",
+                "imagem": "https://img.elo7.com.br/product/main/34B4B0D/caneca-personalizada-frase-criativa-cuidado-esta-ja-tem-dono.jpg"
+              },
+              {
+                "nome": "Kit de Vinhos",
+                "descricao": "O Kit de Vinhos é perfeito para pais apreciadores da bebida. Composto por uma seleção de vinhos de qualidade e acessórios como saca-rolhas e abridor de garrafas, é um presente refinado e sofisticado.",
+                "preco": "79.99",
+                "imagem": "https://smilekitscorporativos.com.br/wp-content/uploads/2020/11/D1602-1-600x804.jpg"
+              },
+              {
+                "nome": "Churrasqueira Portátil",
+                "descricao": "A Churrasqueira Portátil é ideal para pais que adoram um bom churrasco. Compacta e fácil de transportar, permite que ele prepare deliciosas refeições ao ar livre com praticidade e conveniência.",
+                "preco": "129.99",
+                "imagem": "https://d3alv7ekdacjys.cloudfront.net/Custom/Content/Products/10/19/1019918_churrasqueira-araguaia-mor_m4_637686215196680085.jpg"
+              },
+              {
+                "nome": "Vestido longo estampado",
+                "descricao": "Vestido longo com estampa floral e mangas curtas. Ideal para ocasiões especiais.",
+                "preco": "159,99",
+                "imagem": "https://images.tcdn.com.br/img/img_prod/690699/vestido_longo_estampado_expressao_9694_1_f5274d4faf6ab0b10754c3783a1d9082.jpg"
+              },
+              {
+                "nome": "Jaqueta jeans",
+                "descricao": "Jaqueta jeans com lavagem clara, dois bolsos frontais e botões metálicos. Versátil e moderna.",
+                "preco": "129,99",
+                "imagem": "https://www.princessboutique.com.br/media/catalog/product/cache/1/image/420x565/9df78eab33525d08d6e5fb8d27136e95/j/a/jaqueta-jeans-feminina-curta-clara_1_.png"
+              },
+              {
+                "nome": "Calça legging plus size",
+                "descricao": "Calça legging de cintura alta com estampa geométrica e tecido confortável. Perfeita para atividades físicas.",
+                "preco": "89,99",
+                "imagem": "https://static3.tcdn.com.br/img/img_prod/752919/calca_legging_de_suplex_10031_1_22f697dba240e64cc60d3cc5f6f1c966.jpg"
+              },
+              {
+                "nome": "Camisa social",
+                "descricao": "Camisa social feminina slim fit em tecido de algodão com listras verticais. Ideal para eventos formais.",
+                "preco": "179,99",
+                "imagem": "https://img.bigshop.com.br/500/750/000007-1583842364-camisa-manga-curta-les-chemises--tulipa-rebeca.jpeg?v=5"
+              },
+              {
+                "nome": "Blusa de frio",
+                "descricao": "Blusa de frio em tricô com gola alta e mangas compridas. Perfeita para os dias mais frios.",
+                "preco": "99,99",
+                "imagem": "https://images.tcdn.com.br/img/img_prod/1178088/blusa_grossa_frio_tricot_feminino_atacado_monte_siao_bras_24_1_ca01f0880b346cf121300da1bcb0d40c.jpeg"
+              },
+              {
+                "nome": "Shorts jeans",
+                "descricao": "Shorts jeans com barra desfiada e detalhes em bordado. Ideal para looks descontraídos.",
+                "preco": "69,99",
+                "imagem": "https://images-americanas.b2w.io/produtos/4677778050/imagens/bermuda-short-jeans-destroyed-feminino-cintura-alta-hot-pants/4677778050_1_xlarge.jpg"
+              },
+              {
+                "nome": "Vestido tubinho",
+                "descricao": "Vestido tubinho em tecido de crepe com detalhes em renda. Elegante e sofisticado.",
+                "preco": "199,99",
+                "imagem": "https://photos.enjoei.com.br/vestido-tubinho-com-detalhe-em-renda-40683188/1200xN/czM6Ly9waG90b3MuZW5qb2VpLmNvbS5ici9wcm9kdWN0cy8xMzE0MjIwMC82NmY4OWMwODI2NGViNmY2NWQ0ZGVjYjRkYTg3ZWRkOS5qcGc"
+              },
+              {
+                "nome": "Blusa cropped",
+                "descricao": "Blusa cropped em tecido de algodão com estampa love love. Ideal para o verão, festas, carnaval, jantares em família, conhecer a sogra.",
+                "preco": "49,99",
+                "imagem": "https://heroessports.com.br/media/catalog/product/cache/1/image/1000x1231/17f82f742ffe127f42dca9de82fb58b1/c/r/croppedilove01.jpg"
+              },
+              {
+                "nome": "Blusa cropped tiktok",
+                "descricao": "Blusa cropped em tecido de algodão com estampa tiktok. Ideal para gravar as dancinhas do momento. XD",
+                "preco": "49,99",
+                "imagem": "https://cf.shopee.com.br/file/96cdeb074875251f670568710aaa0aca"
+              },
+              {
+                "nome": "Saia midi",
+                "descricao": "Saia midi plissada em tecido de poliéster com estampa floral. Versátil e elegante.",
+                "preco": "129,99",
+                "imagem": "https://a-static.mlcdn.com.br/800x560/saia-midi-feminina-estampa-flores-modelo-plissada-tecido-poliester-filo-modas/scatenastore/9493869ac71e11edae984201ac18502f/15355b6a57feac1862b4b0f1ffadd2f0.jpeg"
+              },
+              {
+                "nome": "Moletom com capuz",
+                "descricao": "Moletom com capuz em tecido de algodão e poliéster com estampa de tigresa. Confortável e estiloso.",
+                "preco": "99,90",
+                "imagem":"https://static.netshoes.com.br/produtos/casaco-moletom-pelinho-masculino-c-capuz-animal-print/09/7PE-0006-209/7PE-0006-209_zoom1.jpg?ts=1657642158"
+            },
+            {
+              "nome": "Camiseta Polo",
+              "descricao": "Camiseta polo clássica, feita de algodão macio e durável, perfeita para um look casual elegante.",
+              "preco": "59.90",
+              "imagem": "https://www.volvocarsecommerce.com/wp-content/uploads/2021/11/Polo-Preta.jpg"
+            },
+            {
+              "nome": "Calça Jeans Slim",
+              "descricao": "Calça jeans slim fit com lavagem moderna, oferecendo conforto e estilo para o dia a dia.",
+              "preco": "99.90",
+              "imagem": "https://img.lojasrenner.com.br/item/548708952/zoom/1.jpg"
+            },
+            {
+              "nome": "Jaqueta de Couro",
+              "descricao": "Jaqueta de couro legítimo com design clássico e detalhes em metal, proporcionando um visual urbano e sofisticado.",
+              "preco": "299.90",
+              "imagem": "https://http2.mlstatic.com/D_NQ_NP_983625-MLB51331550013_082022-O.jpg"
+            },
+            {
+              "nome": "Suéter de Cashmere",
+              "descricao": "Suéter de cashmere luxuoso e macio, perfeito para manter-se aquecido com estilo durante o inverno.",
+              "preco": "199.90",
+              "imagem": "https://d1i2p15dhfw94q.cloudfront.net/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/_/m/_mg_3727_8_1.jpg"
+            },
+            {
+              "nome": "Blazer Slim Fit",
+              "descricao": "Blazer slim fit elegante, feito com tecido de alta qualidade, perfeito para ocasiões formais e eventos especiais.",
+              "preco": "249.90",
+              "imagem": "https://brandstime.com.br/media/catalog/product/cache/f3d59ba7628a968509befb0ae4cfd80b/b/l/blazer_masculino_preto_slim_fit_veludo_2__1_2.jpg"
+            },
+            {
+              "nome": "Camisa Social",
+              "descricao": "Camisa social clássica, confeccionada em algodão de alta qualidade, ideal para um visual profissional e sofisticado.",
+              "preco": "79.90",
+              "imagem": "https://citerol.vteximg.com.br/arquivos/ids/168163-1000-1000/17010046-3.jpg?v=637215176937770000"
+            },
+            {
+              "nome": "Calça Casual",
+              "descricao": "Calça casual versátil, feita de tecido leve e respirável, ideal para um visual descontraído no dia a dia.",
+              "preco": "69.90",
+              "imagem": "https://static.deluccaclassico.com.br/public/deluccaclassico/imagens/produtos/calca-casual-masculina-super-slim-preta-3265.jpg"
+            },
+            {
+              "nome": "Terno Completo",
+              "descricao": "Terno completo, composto por paletó e calça, feito com tecido de alta qualidade e corte impecável para ocasiões formais.",
+              "preco": "499.90",
+              "imagem": "https://a-static.mlcdn.com.br/800x560/terno-oxford-slim-completo-colete-9-cores-terra-forte-ternos/terraforteternos2/2b311c985eba11ed9edc4201ac185019/2fa58b3c03cd6652f6e3708c8745677b.jpeg"
+            }
+
   ]
 }
